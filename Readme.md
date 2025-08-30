@@ -1,6 +1,6 @@
 # EchoSerial
 
-A simple C++ program that demonstrates inter-process communication using virtual serial ports. It sends a user-defined message to a virtual serial port and then reads the same message back from a connected port, effectively creating a "serial echo" loop.
+A simple C++ program that write/reads to/from a virtual serial ports created by socat. It sends a user-defined message to a virtual serial port and then reads the same message back from a connected port, effectively creating a "serial echo" loop.
 
 
 
