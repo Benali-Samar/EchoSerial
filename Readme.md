@@ -8,7 +8,7 @@ A simple C++ program that demonstrates inter-process communication using virtual
 
 The project relies on two main components:
 
-    socat: This tool creates two virtual serial ports, /dev/ttyVSEND and /dev/ttyVREAD, and links them together. Any data written to /dev/ttyVSEND is immediately transferred to /dev/ttyVREAD, and vice-versa. This setup simulates a physical serial device that echoes back any data it receives.
+* socat: This tool creates two virtual serial ports, /dev/ttyVSEND and /dev/ttyVREAD, and links them together. Any data written to /dev/ttyVSEND is immediately transferred to /dev/ttyVREAD, and vice-versa. This setup simulates a physical serial device that echoes back any data it receives.
 
 
 Follow these steps in the given order to run the project successfully.
